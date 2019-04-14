@@ -1,0 +1,16 @@
+{
+  "name": "thor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "utorrent",
+    "download",
+    "filme"
+  ],
+  "author": "Lucas Santos Lima",
+  "license": "ISC"
+}
