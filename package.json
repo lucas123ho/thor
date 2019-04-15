@@ -12,5 +12,10 @@
     "filme"
   ],
   "author": "Lucas Santos Lima",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "open": "^6.1.0",
+    "readline-sync": "^1.4.9"
+  }
 }
