@@ -15,8 +15,8 @@ function start() {
         .then(acessLinks)
         .then(getMagnetLinks)
         .then(askMagnetLink)
-        .catch(err => console.log("Tchau!"))
-    // .then(printResult)
+        // .then(printResult)
+        .catch(err => console.log("No movie found"))
 
     function init() {
         return new Promise((resolve) => {
@@ -29,7 +29,7 @@ function start() {
         return new Promise((resolve) => {
             let movieName = readLineSync.question('What movie name: ')
             movieNameNoral = movieName
-            movieName = movieName.replace(' ', '%20')
+            movieName = movieName.replace(' ', '+')
             content.movieName = movieName
             content.movieNameNoral = movieNameNoral
             resolve(content)
