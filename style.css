@@ -1,0 +1,13 @@
+body,html{overflow-x: hidden}
+div.btn{
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+div.btn-outline{
+    border: 1px solid #333;
+}
+div.btn-outline:hover{
+    background: #333;
+    color: white;
+}
